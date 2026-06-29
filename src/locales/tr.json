@@ -2292,7 +2292,7 @@
         "title": "Çöp kutusuna taşı",
         "message": "Seçilen oturumlar daha sonra geri yüklenebilmesi için ilgili örneklerden çöp kutusuna taşınacaktır. Çalışan örneklerin değişikliğin görünmesi için yeniden başlatılması gerekebilir. Devam edilsin mi?",
         "syncMessage": "Eksik iş parçacıkları ve bunlara ait oturum verileri tüm örneklerle eşitlenecektir. Mevcut içerik yeniden yazılmayacak ve hedef örnek dosyaları herhangi bir yazma işleminden önce yedeklenecektir. Devam edilsin mi?",
-        "repairVisibilityMessage": "Bu işlem, her örneğin kök config.toml dosyasındaki model_provider değerini kullanarak rollout dosyaları ve state_5.sqlite içindeki sağlayıcı meta verilerini onarır (eksikse varsayılan olarak openai kullanılır). Değiştirilecek dosyalar yazılmadan önce yedeklenir. Değişikliğin görünmesi için çalışan örneklerin yeniden başlatılması gerekebilir. Devam edilsin mi?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Yönetilecek oturum yok",

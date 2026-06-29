@@ -2866,7 +2866,7 @@
         "title": "Move to Trash",
         "message": "Selected sessions will be moved to Trash from their instances so they can be restored later. Running instances may need a restart before the change appears. Continue?",
         "syncMessage": "Missing rollout files, session_index entries, and session file times will be synced to all instances, then official Codex will rebuild the session index. Existing content will not be written again, and target files are backed up before writing. Continue?",
-        "repairVisibilityMessage": "This will repair provider metadata in rollout files and state_5.sqlite using each instance's root config.toml model_provider (defaulting to openai when missing). Files that will be changed are backed up before writing. Running instances may need a restart before the change appears. Continue?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "No sessions to manage",

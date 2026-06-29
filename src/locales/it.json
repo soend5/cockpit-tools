@@ -2292,7 +2292,7 @@
         "title": "Sposta nel cestino",
         "message": "Le sessioni selezionate verranno spostate nel cestino dalle rispettive istanze, così potranno essere ripristinate in seguito. Le istanze in esecuzione potrebbero richiedere un riavvio prima che la modifica sia visibile. Continuare?",
         "syncMessage": "I thread mancanti e i relativi dati di sessione verranno sincronizzati in tutte le istanze. Il contenuto esistente non verrà riscritto e i file dell’istanza di destinazione verranno salvati prima di qualsiasi scrittura. Continuare?",
-        "repairVisibilityMessage": "Questa operazione riparerà i metadati del provider nei file di rollout e in state_5.sqlite usando il model_provider del config.toml radice di ciascuna istanza (se manca, verrà usato openai come predefinito). I file che verranno modificati vengono sottoposti a backup prima della scrittura. Le istanze in esecuzione potrebbero dover essere riavviate prima che la modifica compaia. Continuare?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Nessuna sessione da gestire",

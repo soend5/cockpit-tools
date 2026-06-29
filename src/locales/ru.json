@@ -2292,7 +2292,7 @@
         "title": "Переместить в корзину",
         "message": "Выбранные сессии будут перемещены в корзину из соответствующих экземпляров, чтобы их можно было восстановить позже. Запущенным экземплярам может потребоваться перезапуск, прежде чем изменения станут видны. Продолжить?",
         "syncMessage": "Отсутствующие треды и их данные сессий будут синхронизированы со всеми экземплярами. Существующее содержимое не будет записываться повторно, а файлы целевого экземпляра будут сохранены в резервной копии перед любой записью. Продолжить?",
-        "repairVisibilityMessage": "Это исправит метаданные провайдера в rollout-файлах и в state_5.sqlite, используя значение model_provider из корневого config.toml каждого экземпляра (если оно отсутствует, будет использован openai). Для файлов, которые будут изменены, перед записью создаются резервные копии. Запущенным экземплярам может понадобиться перезапуск, прежде чем изменения станут видны. Продолжить?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Нет сессий для управления",

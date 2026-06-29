@@ -2292,7 +2292,7 @@
         "title": "Mover a la papelera",
         "message": "Las sesiones seleccionadas se moverán a la papelera desde sus instancias para que puedan restaurarse más tarde. Es posible que las instancias en ejecución necesiten reiniciarse antes de que aparezcan los cambios. ¿Continuar?",
         "syncMessage": "Los hilos faltantes y sus datos de sesión se sincronizarán con todas las instancias. El contenido existente no se volverá a escribir y los archivos de la instancia de destino se respaldarán antes de cualquier escritura. ¿Continuar?",
-        "repairVisibilityMessage": "Esto reparará los metadatos del proveedor en los archivos de rollout y en state_5.sqlite usando el model_provider del config.toml raíz de cada instancia (si falta, se usará openai por defecto). Los archivos que se vayan a modificar se respaldarán antes de escribirlos. Puede que las instancias en ejecución necesiten reiniciarse antes de que aparezca el cambio. ¿Continuar?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "No hay sesiones para gestionar",

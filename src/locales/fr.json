@@ -2292,7 +2292,7 @@
         "title": "Déplacer vers la corbeille",
         "message": "Les sessions sélectionnées seront déplacées vers la corbeille depuis leurs instances afin de pouvoir être restaurées plus tard. Les instances en cours d’exécution peuvent nécessiter un redémarrage avant que la modification apparaisse. Continuer ?",
         "syncMessage": "Les threads manquants et leurs données de session seront synchronisés vers toutes les instances. Le contenu existant ne sera pas réécrit et les fichiers de l’instance cible seront sauvegardés avant toute écriture. Continuer ?",
-        "repairVisibilityMessage": "Cette action réparera les métadonnées du fournisseur dans les fichiers de rollout et dans state_5.sqlite en utilisant la valeur model_provider du config.toml racine de chaque instance (avec openai par défaut si elle est absente). Les fichiers à modifier sont sauvegardés avant l'écriture. Les instances en cours d'exécution peuvent nécessiter un redémarrage avant que le changement n'apparaisse. Continuer ?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Aucune session à gérer",

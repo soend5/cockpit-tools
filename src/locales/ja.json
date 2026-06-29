@@ -2292,7 +2292,7 @@
         "title": "ゴミ箱へ移動",
         "message": "選択したセッションは対応するインスタンスからゴミ箱へ移動され、後で復元できます。実行中のインスタンスでは、変更が反映されるまで再起動が必要な場合があります。続行しますか？",
         "syncMessage": "不足しているスレッドとそのセッションデータをすべてのインスタンスに同期します。既存の内容は再書き込みされず、書き込み前に対象インスタンスのファイルをバックアップします。続行しますか？",
-        "repairVisibilityMessage": "この操作では、各インスタンスのルート config.toml にある model_provider を使って、rollout ファイルと state_5.sqlite 内のプロバイダーメタデータを修復します（値がない場合は openai を使用します）。変更対象のファイルは書き込み前にバックアップされます。変更が反映されるまで、実行中のインスタンスを再起動する必要がある場合があります。続行しますか？"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "管理できるセッションはまだありません",
