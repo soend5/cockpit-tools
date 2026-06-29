@@ -2403,7 +2403,7 @@
         "title": "移到垃圾桶",
         "message": "會將所選會話從對應實例中移到垃圾桶，方便後續恢復；執行中的實例可能需要重新啟動後才會反映。確認繼續？",
         "syncMessage": "會將缺失的執行緒與對應會話同步到所有實例中，已有內容不會重複寫入，寫入前會先備份目標實例關鍵檔案。確認繼續？",
-        "repairVisibilityMessage": "這將依照每個實例根目錄 config.toml 中的 model_provider（缺失時預設使用 openai），修復 rollout 檔案與 state_5.sqlite 內的供應商中繼資料。所有即將寫入變更的檔案都會先建立備份。正在執行的實例可能需要重新啟動，變更才會顯示。是否繼續？"
+        "repairVisibilityMessage": "將修復 rollout、session_index、state_5.sqlite 可見性欄位、本機執行緒目錄索引以及左側主機選擇，寫入前會先備份即將修改的檔案。完成後請徹底結束 Codex 進程後再啟動，以確保左側專案和會話列表重新載入。是否繼續？"
       },
       "empty": {
         "title": "還沒有可管理的會話",

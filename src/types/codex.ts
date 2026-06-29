@@ -160,7 +160,12 @@ export interface CodexSessionVisibilityRepairItem {
   targetProvider: string;
   changedRolloutFileCount: number;
   updatedSqliteRowCount: number;
+  missingSqliteThreadCount: number;
   addedSessionIndexEntryCount: number;
+  repairedLocalThreadCatalogCount: number;
+  repairedProjectIndexWorkspaceCount: number;
+  resetSidebarHostSelection: boolean;
+  metadataRebuildFailed: boolean;
   skippedSqliteFile: boolean;
   backupDir?: string | null;
   running: boolean;
@@ -171,7 +176,12 @@ export interface CodexSessionVisibilityRepairSummary {
   mutatedInstanceCount: number;
   changedRolloutFileCount: number;
   updatedSqliteRowCount: number;
+  missingSqliteThreadCount: number;
   addedSessionIndexEntryCount: number;
+  repairedLocalThreadCatalogCount: number;
+  repairedProjectIndexWorkspaceCount: number;
+  resetSidebarHostSelectionCount: number;
+  metadataRebuildFailedInstanceCount: number;
   skippedSqliteFileCount: number;
   items: CodexSessionVisibilityRepairItem[];
   backupDirs: string[];

@@ -2292,7 +2292,7 @@
         "title": "Mover para a lixeira",
         "message": "As sessões selecionadas serão movidas para a lixeira de suas instâncias para que possam ser restauradas depois. Instâncias em execução podem precisar ser reiniciadas antes que a mudança apareça. Continuar?",
         "syncMessage": "Os threads ausentes e seus dados de sessão serão sincronizados com todas as instâncias. O conteúdo existente não será gravado novamente, e os arquivos da instância de destino serão copiados antes de qualquer gravação. Continuar?",
-        "repairVisibilityMessage": "Isto vai reparar os metadados do provedor nos arquivos rollout e em state_5.sqlite usando o model_provider do config.toml raiz de cada instância (se estiver ausente, o padrão será openai). Os arquivos que serão alterados recebem backup antes da gravação. Instâncias em execução podem precisar ser reiniciadas antes que a mudança apareça. Continuar?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Nenhuma sessão para gerenciar",

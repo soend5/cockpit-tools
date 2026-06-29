@@ -2292,7 +2292,7 @@
         "title": "Přesunout do koše",
         "message": "Vybrané relace budou přesunuty do koše z odpovídajících instancí, aby je bylo možné později obnovit; běžící instance mohou vyžadovat restart, než se změna projeví. Pokračovat?",
         "syncMessage": "Chybějící vlákna a jejich data relací budou synchronizována do všech instancí. Existující obsah se nebude zapisovat znovu a soubory cílové instance budou před zápisem zazálohovány. Pokračovat?",
-        "repairVisibilityMessage": "Tato akce opraví metadata poskytovatele v rollout souborech a v databázi state_5.sqlite podle hodnoty model_provider z kořenového souboru config.toml každé instance (pokud chybí, použije se openai). Soubory, které budou změněny, se před zápisem zálohují. Běžící instance mohou vyžadovat restart, než se změna projeví. Pokračovat?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Žádné relace ke správě",

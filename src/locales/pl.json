@@ -2292,7 +2292,7 @@
         "title": "Przenieś do kosza",
         "message": "Wybrane sesje zostaną przeniesione do kosza z odpowiednich instancji, aby można je było później przywrócić. Uruchomione instancje mogą wymagać ponownego uruchomienia, zanim zmiana będzie widoczna. Kontynuować?",
         "syncMessage": "Brakujące wątki i ich dane sesji zostaną zsynchronizowane ze wszystkimi instancjami. Istniejąca zawartość nie zostanie zapisana ponownie, a pliki instancji docelowej zostaną zarchiwizowane przed każdym zapisem. Kontynuować?",
-        "repairVisibilityMessage": "To naprawi metadane dostawcy w plikach rollout i w state_5.sqlite, używając wartości model_provider z głównego pliku config.toml każdej instancji (gdy jej brakuje, zostanie użyte openai). Pliki, które zostaną zmienione, są archiwizowane przed zapisem. Działające instancje mogą wymagać ponownego uruchomienia, zanim zmiana będzie widoczna. Kontynuować?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Brak sesji do zarządzania",

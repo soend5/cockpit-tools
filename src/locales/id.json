@@ -2449,7 +2449,7 @@
         "title": "Pindahkan ke Sampah",
         "message": "Sesi yang dipilih akan dipindahkan ke Sampah dari instansinya sehingga dapat dipulihkan nanti. Instansi yang berjalan mungkin perlu dimulai ulang sebelum perubahan muncul. Lanjutkan?",
         "syncMessage": "Thread yang hilang dan data sesinya akan disinkronkan ke semua instansi. Konten yang ada tidak akan ditulis lagi, dan berkas instansi target akan dicadangkan sebelum penulisan terjadi. Lanjutkan?",
-        "repairVisibilityMessage": "Tindakan ini akan memperbaiki metadata penyedia di file rollout dan state_5.sqlite menggunakan model_provider dari config.toml root setiap instance (jika tidak ada, default-nya openai). File yang akan diubah akan dicadangkan sebelum ditulis. Instance yang sedang berjalan mungkin perlu dimulai ulang sebelum perubahan terlihat. Lanjutkan?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Tidak ada sesi untuk dikelola",

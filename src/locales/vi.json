@@ -2292,7 +2292,7 @@
         "title": "Chuyển vào thùng rác",
         "message": "Các phiên đã chọn sẽ được chuyển vào thùng rác từ các phiên bản tương ứng để có thể khôi phục sau này. Các phiên bản đang chạy có thể cần khởi động lại trước khi thay đổi xuất hiện. Tiếp tục chứ?",
         "syncMessage": "Các luồng còn thiếu và dữ liệu phiên của chúng sẽ được đồng bộ tới tất cả phiên bản. Nội dung hiện có sẽ không bị ghi lại, và các tệp của phiên bản đích sẽ được sao lưu trước khi ghi. Tiếp tục chứ?",
-        "repairVisibilityMessage": "Thao tác này sẽ sửa metadata nhà cung cấp trong các tệp rollout và state_5.sqlite bằng giá trị model_provider từ config.toml gốc của từng instance (nếu thiếu thì dùng openai mặc định). Các tệp sắp thay đổi sẽ được sao lưu trước khi ghi. Có thể cần khởi động lại các instance đang chạy trước khi thay đổi xuất hiện. Tiếp tục?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Chưa có phiên nào để quản lý",

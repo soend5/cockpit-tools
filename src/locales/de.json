@@ -2292,7 +2292,7 @@
         "title": "In den Papierkorb verschieben",
         "message": "Ausgewählte Sitzungen werden aus den jeweiligen Instanzen in den Papierkorb verschoben, damit sie später wiederhergestellt werden können. Laufende Instanzen müssen möglicherweise neu gestartet werden, bevor die Änderung sichtbar wird. Fortfahren?",
         "syncMessage": "Fehlende Threads und ihre Sitzungsdaten werden in alle Instanzen synchronisiert. Vorhandene Inhalte werden nicht erneut geschrieben, und die Dateien der Zielinstanz werden vor jedem Schreibvorgang gesichert. Fortfahren?",
-        "repairVisibilityMessage": "Dadurch werden die Anbieter-Metadaten in Rollout-Dateien und in state_5.sqlite anhand des model_provider aus der jeweiligen root-config.toml der Instanz repariert (wenn er fehlt, wird standardmäßig openai verwendet). Dateien, die geändert werden, werden vor dem Schreiben gesichert. Bei laufenden Instanzen kann ein Neustart nötig sein, bevor die Änderung sichtbar wird. Fortfahren?"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "Keine Sitzungen zur Verwaltung",

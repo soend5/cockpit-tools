@@ -2338,7 +2338,7 @@
         "title": "نقل إلى المهملات",
         "message": "سيتم نقل الجلسات المحددة إلى سلة المهملات من المثيلات المقابلة لتسهيل استعادتها لاحقًا؛ قد تحتاج المثيلات قيد التشغيل إلى إعادة تشغيل قبل ظهور التغييرات. هل تريد المتابعة؟",
         "syncMessage": "ستتم مزامنة السلاسل والجلسات المفقودة إلى جميع المثيلات. لن تتم كتابة المحتوى الموجود مرة أخرى، وسيتم نسخ ملفات المثيل الهدف احتياطيًا قبل أي كتابة. هل تريد المتابعة؟",
-        "repairVisibilityMessage": "سيؤدي هذا إلى إصلاح بيانات تعريف المزوّد في ملفات rollout وملف state_5.sqlite باستخدام قيمة model_provider من ملف config.toml الجذري لكل مثيل (وسيُستخدم openai افتراضيًا إذا كانت مفقودة). ستؤخذ نسخة احتياطية من الملفات التي سيجري تعديلها قبل الكتابة. قد تحتاج المثيلات قيد التشغيل إلى إعادة التشغيل قبل ظهور التغيير. هل تريد المتابعة؟"
+        "repairVisibilityMessage": "This will repair rollout metadata, session_index, state_5.sqlite visibility fields, the local thread catalog, and the sidebar host selection. Files that will change are backed up before writing. After it finishes, fully quit the Codex process and start it again so the sidebar project and session lists reload. Continue?"
       },
       "empty": {
         "title": "لا توجد جلسات لإدارتها",
